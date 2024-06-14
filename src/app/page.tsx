@@ -4,6 +4,7 @@ import FeautredCourses from "./components/FeautredCourses";
 import Whychooseuse from "./components/Whychooseuse";
 import MusicTestimonials from "./components/Testimonialcard";
 import UpcomingWebinar from "./components/UpcomingWebinar";
+import Instructors from "./components/Instructors";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
        <Whychooseuse/>
        <MusicTestimonials/>
        <UpcomingWebinar/>
+       <Instructors/>
   </main>
   );
 }
