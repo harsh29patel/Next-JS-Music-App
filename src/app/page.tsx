@@ -5,6 +5,8 @@ import Whychooseuse from "./components/Whychooseuse";
 import MusicTestimonials from "./components/Testimonialcard";
 import UpcomingWebinar from "./components/UpcomingWebinar";
 import Instructors from "./components/Instructors";
+import Footer from "./components/Footer";
+
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
        <MusicTestimonials/>
        <UpcomingWebinar/>
        <Instructors/>
+       <Footer/>
+       
   </main>
   );
 }
