@@ -1,6 +1,9 @@
 import Image from "next/image";
 import HeroSection from "./components/HeroSection";
 import FeautredCourses from "./components/FeautredCourses";
+import Whychooseuse from "./components/Whychooseuse";
+import MusicTestimonials from "./components/Testimonialcard";
+import UpcomingWebinar from "./components/UpcomingWebinar";
 
 export default function Home() {
   return (
@@ -8,6 +11,9 @@ export default function Home() {
        <h1 className="text-2xl  text-center"></h1>
        <HeroSection/>
        <FeautredCourses/>
+       <Whychooseuse/>
+       <MusicTestimonials/>
+       <UpcomingWebinar/>
   </main>
   );
 }

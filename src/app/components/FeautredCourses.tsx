@@ -31,7 +31,7 @@ function FeautredCourses() {
                 {featuredCourses.map((course:Course)=>(
                    <div key={course.id} className='flex justify-center'>
                         <BackgroundGradient  className='flex flex-cols rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm'>
-                        <div className='p-4 sm:p-6 flex flex-cols items-center text-center flex-grow'>
+                        <div className='p-4 sm:p-6 flex flex-col items-center text-center flex-grow'>
                         <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">{course.title}</p>
                                <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">{course.description}</p>
                                 <Link href={`/courses/${course.slug}`}>
@@ -44,12 +44,13 @@ function FeautredCourses() {
                 ))}
             </div>
         </div>
-        <div className=' mt-20 text-center'></div>
+        <div className='  mt-20 text-center '>
         <Link href={"/courses"}
-         className="px-4 py-2 rounded border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200"
+         className="px-4 py-2  rounded border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200 "
         >
             View all courses
             </Link>
+    </div>
     </div>
   )
 }
